@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
                                         DocumentSnapshot documentSnapshot = task.getResult();
                                         if(documentSnapshot.exists()){
 //                                            Log.d("values", (String) documentSnapshot.get("uname"));
-                                              i.putExtra("uname","Welcome Back " + documentSnapshot.get("uname").toString().toUpperCase() + "!!.");
+                                              i.putExtra("uname","Welcome Back " + documentSnapshot.get("uname").toString().toUpperCase() + "!!");
                                               startActivity(i);
                                         }
                                         else{

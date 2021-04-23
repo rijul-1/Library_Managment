@@ -87,7 +87,7 @@ public class Sign_Up extends AppCompatActivity {
                                 }
                             });
                             Intent i = new Intent(Sign_Up.this, home_page.class);
-                            i.putExtra("uname","Welcome " + uname.toUpperCase() + "!!.");
+                            i.putExtra("uname","Welcome " + uname.toUpperCase() + "!!");
                             startActivity(i);
                         }
                     }).addOnFailureListener(new OnFailureListener() {
